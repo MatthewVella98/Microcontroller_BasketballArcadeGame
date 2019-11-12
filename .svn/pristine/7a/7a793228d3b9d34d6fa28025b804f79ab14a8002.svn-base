@@ -1,0 +1,65 @@
+\documentclass[11pt,a4paper,twocolumn]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in,nohead,nofoot]{geometry}
+\usepackage{graphicx}
+\usepackage{url} %IMPORTANT TO INCLUDE URL FOR REFERENCES
+\usepackage[today,revrange,nofancy]{svninfo}
+\svnInfo $Id: design_brief.tex 2489 2019-02-13 11:08:51Z jbri2 $
+
+\renewcommand\abstractname{Executive Summary}
+
+%\title{Design Brief: Group 2}
+%\author{
+ %  Aidan Cauchi,
+ %  Matthew Vella,
+ %  Peter Galea St John,
+ %  Neil Vassallo
+ %  }
+%\date{\svnMaxToday, Document v.\svnInfoMaxRevision}
+
+\begin{document}
+
+%\maketitle
+
+%\abstract{%
+  % Write an executive summary for your project. This should not overflow into
+   %the next page, should not contain references, and should be readable by
+  % a wide audience.
+ %  }
+
+%IMPORTANT LI NAGHMLU TABLE OF MET REQUIREMENTS
+
+%\section{Introduction}
+%Write an introduction, explaining the purpose and background of this project.
+%Give a brief description of the game to be implemented.
+%References to be cited like so \cite{stroustrup2000}.
+%Also include an overview of this document.
+
+%\cite{stroustrup2000}
+
+%\section{System Design}
+
+
+%DONT FORGET REFERENCE IN reference.bib
+\section{Management}
+\par{Being 4 people in the group, it was seen ideal to split the group up; Matthew and Peter will work mostly on hardware while Aidan and Neil will work mostly on software. However, this will not be strictly enforced so that all members will get a chance to work on all aspects of the project.}
+\linebreak
+
+\par{After the initial meeting, the team agreed to proceed with the Agile Software Development approach. This approach will allow them to work in a flexible manner. As the technology is new to all members, it is essential that there is some space to allow requirements to change as necessary without severly halting the progress of the project \cite{agileDev}. As a result of this choosing this methodology, some ground rules needed to be set: The team is to meet every Thursday at 12/12:30. An agenda detailing the points of discussion for the next meeting will be uploaded by a member on SVN before the next meeting. On the agenda, a member is chosen to be the minute-taker for the next meeting. After a meeting has concluded, the minute-taker will compile the minutes using the template provided on SVN and then upload said minutes. The minutes are to contain what was said in the meeting as well as the work assigned to each member for the next meeting. Once uploaded, the minutes and agendas shouldn't be changed, however some exceptions will be permitted if some information was overlooked, especially in the beginning few weeks as the team gets used to the system. The members taking the minutes and agendas will be rotated every week so that everyone will get a chance to contribute from a managerial perspective.  Finally, all the minutes and agendas will be written using Latex and the provided templates.}
+\linebreak
+
+
+\par{With respect to the project itself, detailed goals will be listed during each meeting. Since most members of the group have no experience with using this technology, it was found to be better to plan specific requirements as the project develops and as the team learns more during the lectures. The Keil uVision IDE will be used to code the implementation. Alongside this, the team will make use of Doxygen to ensure proper and consistent documentation of code. Moreover, SVN will be used to track changes to the project and share files between the team members. Facebook's Messenger will be used for informal communication between the members and for providing online help. Finally, the University email will be used to formally remind each member before each meeting.
+}
+
+
+
+
+%\section{Closure}
+
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
+\end{document}

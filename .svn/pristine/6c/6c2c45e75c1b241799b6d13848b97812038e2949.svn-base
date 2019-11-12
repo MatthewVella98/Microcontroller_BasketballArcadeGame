@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Ascii to num
+    int value =50; 
+    printf("Integer value of %d is %d\n",value, value - '0');
+    
+    //Num to acsii
+    int alphabet = (int)'2';
+    printf("ASCII value of '%c' is %d", alphabet, (char)alphabet );
+    
+    return 0;
+}

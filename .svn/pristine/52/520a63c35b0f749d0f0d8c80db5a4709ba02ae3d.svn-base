@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Aidan Cauchi, University of Malta, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.26.2.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      CMSIS_AGDI.dll V1.30.6.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+D:\UNIVERSITY COMPUTING SCIENCE\Microcontrollers\SVN Repo\code\branches\develop\Basketball_Game\BasicUI.uvprojx
+Project File Date:  05/18/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling dac.c...
+compiling comparator.c...
+compiling timer.c...
+compiling adc.c...
+compiling gpio.c...
+compiling uart.c...
+compiling i2c.c...
+compiling switches.c...
+compiling delay.c...
+compiling leds.c...
+compiling menu.c...
+src\menu.h(16): warning:  #1295-D: Deprecated declaration init_menu - give arg types
+  void init_menu();
+src\menu.h(18): warning:  #1-D: last line of file ends without a newline
+  void enter_state();
+src\menu.h(18): warning:  #1295-D: Deprecated declaration enter_state - give arg types
+  void enter_state();
+src\menu.c(12): warning:  #1295-D: Deprecated declaration handle_state - give arg types
+  void handle_state();
+src\menu.c(13): warning:  #1295-D: Deprecated declaration load_score - give arg types
+  void load_score();
+src\menu.c(14): warning:  #1295-D: Deprecated declaration timer_options - give arg types
+  void timer_options();
+src\menu.c(119): warning:  #177-D: variable "error"  was declared but never referenced
+      uint8_t error = 0;
+src\menu.c: 7 warnings, 0 errors
+compiling main.c...
+src\menu.h(16): warning:  #1295-D: Deprecated declaration init_menu - give arg types
+  void init_menu();
+src\menu.h(18): warning:  #1-D: last line of file ends without a newline
+  void enter_state();
+src\menu.h(18): warning:  #1295-D: Deprecated declaration enter_state - give arg types
+  void enter_state();
+src\main.c: 3 warnings, 0 errors
+compiling lcd.c...
+compiling lpc_eeprom.c...
+assembling startup_LPC407x_8x_177x_8x.s...
+compiling lpc_clkpwr.c...
+compiling game.c...
+src\menu.h(16): warning:  #1295-D: Deprecated declaration init_menu - give arg types
+  void init_menu();
+src\menu.h(18): warning:  #1-D: last line of file ends without a newline
+  void enter_state();
+src\menu.h(18): warning:  #1295-D: Deprecated declaration enter_state - give arg types
+  void enter_state();
+src\game.c(25): warning:  #1295-D: Deprecated declaration increment_score - give arg types
+  void increment_score();
+src\game.c(32): warning:  #1295-D: Deprecated declaration decrement_timer - give arg types
+  void decrement_timer();
+src\game.c(38): warning:  #1295-D: Deprecated declaration gameplay_loop - give arg types
+  void gameplay_loop();
+src\game.c(59): warning:  #1295-D: Deprecated declaration save_score - give arg types
+  void save_score();
+src\game.c(201): warning:  #111-D: statement is unreachable
+  		case 0:return 48;break;
+src\game.c(202): warning:  #111-D: statement is unreachable
+  		case 1:return 49;break;
+src\game.c(203): warning:  #111-D: statement is unreachable
+  		case 2:return 50;break;
+src\game.c(204): warning:  #111-D: statement is unreachable
+  		case 3:return 51;break;
+src\game.c(205): warning:  #111-D: statement is unreachable
+  		case 4:return 52;break;
+src\game.c(206): warning:  #111-D: statement is unreachable
+  		case 5:return 53;break;
+src\game.c(207): warning:  #111-D: statement is unreachable
+  		case 6:return 54;break;
+src\game.c(208): warning:  #111-D: statement is unreachable
+  		case 7:return 55;break;
+src\game.c(209): warning:  #111-D: statement is unreachable
+  		case 8:return 56;break;
+src\game.c(210): warning:  #111-D: statement is unreachable
+  		case 9:return 57;break;
+src\game.c(212): warning:  #940-D: missing return statement at end of non-void function "ascii_table" 
+  }
+src\game.c: 18 warnings, 0 errors
+compiling system_LPC407x_8x_177x_8x.c...
+linking...
+Program Size: Code=11248 RO-data=292 RW-data=68 ZI-data=3012  
+".\obj\BasicUI.axf" - 0 Error(s), 28 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC4000_DFP.2.1.0.pack
+                Keil.LPC4000_DFP.2.1.0
+                NXP LPC4000 Series Device Support
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC4088FET208
+  .\RTE\_Target_1
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  D:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device\Include\system_LPC407x_8x_177x_8x.h
+      Include file:  Device\Include\LPC407x_8x_177x_8x.h
+      Source file:   Device\Source\ARM\startup_LPC407x_8x_177x_8x.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_LPC407x_8x_177x_8x.c
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

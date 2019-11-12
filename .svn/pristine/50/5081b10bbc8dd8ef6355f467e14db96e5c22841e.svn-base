@@ -1,0 +1,58 @@
+\documentclass[11pt,a4paper,twocolumn]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in,nohead,nofoot]{geometry}
+\usepackage{graphicx}
+\usepackage[today,revrange,nofancy]{svninfo}
+\svnInfo $Id: design_brief.tex 2489 2019-02-13 11:08:51Z jbri2 $
+
+\renewcommand\abstractname{Executive Summary}
+
+\title{Design Brief: Group 2}
+\author{
+   Peter Galea St.John,
+   Aidan Cauchi,
+   Matthew Vella,
+   Neil Vassallo,
+   }
+\date{\svnMaxToday, Document v.\svnInfoMaxRevision}
+
+\begin{document}
+
+\maketitle
+
+\abstract{%
+   Write an executive summary for your project. This should not overflow into
+   the next page, should not contain references, and should be readable by
+   a wide audience.
+   }
+
+\section{Introduction}
+The team members have chosen this game as they all love games and it would be interesting to create their own game, with the ARM MDK. Furthermore, while the project does seem challenging since the team is new to the concepts mentioned, 
+it also seems managable enough such that the members don't end up feeling overwhelmed while managing other projects as well.
+
+The ARM MDK would be set up to a wooden architecture, where the components needed would be attached to it.
+The participant, after interacting with the menu system, would try to shoot the ball in the hoop, and gain points if succeeding in doing so. 
+The ball would return back to the player and they will try to get more points until they run out of time. Once this happens, the final score will then then be saved onto persistent storage to keep track of "highscores".
+
+This document will be divided into 3 other sections.
+Firstly, there is the System Design, where the descriptions of logic, architecture, wiring, tools, and explanation of the actual implementation of the project are found.
+Secondly, the Management section involves how the team will work together, and the development methodology they will adopt. 
+Finally, the Closure section contains a small recap and members' expectations with the project going forward.
+
+
+
+\section{System Design}
+
+\section{Management}
+Include a time plan.
+Show task dependencies.
+How are these going to be managed?
+
+\section{Closure}
+
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
+\end{document}

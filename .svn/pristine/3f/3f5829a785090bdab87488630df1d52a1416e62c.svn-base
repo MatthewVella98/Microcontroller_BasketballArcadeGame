@@ -1,0 +1,31 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{Meeting 5 Agenda -- Group 2}
+\author{Location: -1 B 2}
+\date{28 March 2019, 12:30--13:30}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Chair:}   & Aidan Cauchi \\
+\textbf{Minutes:} & Neil Vassallo
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+
+\item Reading and approval of minutes from previous meeting.
+
+\item Progress report from group members.
+
+\item Progress report regarding labs.
+
+\item Discuss compatibility of proximity sensor with board, NVRAM situation, and and interfacing peripherals.
+
+\item Matters arising: None noted.
+
+\end{enumerate}
+
+\end{document}

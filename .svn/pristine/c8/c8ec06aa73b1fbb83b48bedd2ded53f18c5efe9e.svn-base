@@ -1,0 +1,31 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{Meeting 3 Agenda -- Group 2}
+\author{Location: -1 B 2}
+\date{14 March 2019, 12:30--13:30}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Chair:}   & Aidan Cauchi \\
+\textbf{Minutes:} & Matthew Vella
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+
+\item Reading and approval of minutes from previous meeting.
+
+\item Progress report from group members.
+
+\item Discuss Group Scaling Form (due 20th March).
+
+\item Discuss how to proceed with project given the results of this week's research.
+
+\item Matters arising: None noted.
+
+\end{enumerate}
+
+\end{document}

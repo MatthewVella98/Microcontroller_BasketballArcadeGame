@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{Meeting 0 Minutes -- Group 2}
+\author{Location: 0 B 6}
+\date{20 February 2019, 13:30--14:00}
+
+\begin{document}
+
+\maketitle
+
+\section*{Present}
+% Members actually present at the meeting
+Aidan Cauchi (Minutes),
+Peter Galea St. John(Chair),
+Neil Vassallo,
+Matthew Vella
+
+% \section*{Apologies}
+% % Members with a justifiable excuse - remove section if there were none
+% Richard Bradford
+%
+% \section*{Absent}
+% % Members without a justifiable excuse - remove section if there were none
+% Robert De Niro
+
+\section*{Discussion}
+
+\begin{enumerate}
+
+% There should be an item corresponding to each of the agenda items for this
+% meeting.
+
+\item No minutes from previous meeting (first meeting with group).
+
+\item No Progress report from group members as this was the initial meeting.
+   % \begin{enumerate}
+   % \item Sean Connery explained the difficulty in capturing Al Capone...
+   % \end{enumerate}
+
+% Add other items here as necessary
+
+\item Matters arising
+   \begin{enumerate}
+     \item Weekly meeting is to happen every Thursday at 12:30.
+   \item Ideas to consider
+      \begin{itemize}
+        \item Basketballl Arcade Game
+        \item Guitar Tuner
+        \item Car exterior automation
+        \item Parking sensors
+        \item Decibel level meter
+        \item Available parking spots
+      \end{itemize}
+   \end{enumerate}
+  \item Most liked idea was the Basketball Arcade Game.
+  \item Initial project requirements:
+    \begin{itemize}
+      \item Documentation
+      \item Physical Model design
+      \item Software
+      \item Physical wiring and engineering
+      \item LCD/7 Segment display
+      \item Sensors to detect ball in hoop
+      \item High score system as persistent storage
+      \item (Possibility) Hoop starts moving after a certain score
+      \item 3 states: Off, Main menu, In-Game
+      \item Buttons/Joystick for interaction
+      \item Ping pong balls
+    \end{itemize}
+
+\end{enumerate}
+
+\section*{Actions}
+
+\begin{enumerate}
+
+\item Research more about the physical model (building requirements, wiring etc.) [0.1]
+\begin{flushright}
+Assigned to: \textbf{Matthew, Peter} \\
+Deadline: \textbf{28th February}
+\end{flushright}
+
+\item Research more about software, ARM Architecture, interfacing etc. [0.1]
+\begin{flushright}
+Assigned to: \textbf{Aidan, Neil} \\
+Deadline: \textbf{28th February}
+\end{flushright}
+
+% Add more actions as necessary
+
+\end{enumerate}
+
+\end{document}

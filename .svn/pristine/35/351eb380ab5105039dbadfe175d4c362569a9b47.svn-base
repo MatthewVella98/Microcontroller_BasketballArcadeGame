@@ -1,0 +1,37 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{Meeting 8 Agenda -- Group 2}
+\author{Location: -1 B 2}
+\date{18 April 2019, 12:30--13:30}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Chair:}   & Matthew Vella  \\
+\textbf{Minutes:} & Aidan Cauchi
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+
+\item Reading and approval of minutes from previous meeting.
+
+\item Progress report from group members.
+
+\item Discussion regarding model wiring and model finalisation.
+
+\item Design brief updates till now and what needs to be updated.
+
+\item Discussion regarding cleaning up of code.
+
+\item Spend some more time together to learn about saving to NVRAM.
+
+\item Testing the proximity sensor with our hoop.
+
+\item Matters arising: None noted.
+
+\end{enumerate}
+
+\end{document}

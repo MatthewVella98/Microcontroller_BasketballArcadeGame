@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{Meeting 4 Agenda -- Group 2}
+\author{Location: 0 B 6}
+\date{21 March 2019, 12:30--13:30}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Chair:}   & Matthew Vella \\
+\textbf{Minutes:} & Neil Vassallo
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+
+\item Reading and approval of minutes from previous meeting.
+
+\item Progress report from group members
+
+\item Testing components
+
+\item Interfacing with board
+
+\item Plan the next steps to be worked on for the model
+
+\item Matters arising: None noted.
+
+\end{enumerate}
+
+\end{document}

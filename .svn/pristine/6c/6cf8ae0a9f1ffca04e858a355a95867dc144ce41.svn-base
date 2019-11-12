@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{ Minutes for meeting 5 -- Group 2}
+\author{Location: 8 B 0}
+\date{28th March 2019, 12:30--13:30}
+
+\begin{document}
+
+\maketitle
+
+\section*{Present}
+% Members actually present at the meeting
+Neil Vassallo (Minutes),
+Aidan Cauchi (Chair),
+Peter Galea St John,
+Matthew Vella .
+
+
+%\section*{Absent}
+% Members without a justifiable excuse - remove section if there were none
+%Robert De Niro
+
+\section*{Discussion}
+
+\begin{enumerate}
+
+% There should be an item corresponding to each of the agenda items for this
+% meeting.
+
+\item Minutes from the previous meeting were read and approved.
+
+\item Progress report from group members:
+   \begin{enumerate}
+   \item Matthew:
+	\begin{itemize}
+		\item  Bought the basketball net. Discussing the choice of balls used as the basketball ball, due to the the hoop. 
+	\end{itemize}
+   \item Aidan:
+	\begin{itemize}
+		\item Created the concept of the main menu, which would be displayed on the LCD. Will start progessing the issue of the timer and the 7-segment.
+		
+	\end{itemize}
+\item Peter:
+	\begin{itemize}
+		\item Bought HR0214-100A IR Proximity sensor,and also a micro lever switch. Discussion of which would be chosen was brought up, as to what we will be using as a sensor to detect a basket.
+	\end{itemize}
+	\item Neil:
+	\begin{itemize}
+		\item Had issues with finding the sections in the documentation regarding NVRAM within the board. Will be continuing with it this week.
+	\end{itemize}
+
+   \end{enumerate}
+
+% Add other items here as necessary
+
+\item Matters arising
+   \begin{enumerate}
+   	\item Discussed whether using a micro lever switch or the HR0214-100A IR Proximity sensor. 
+   \end{enumerate}
+
+\end{enumerate}
+
+\section*{Actions}
+
+\begin{enumerate}
+
+\item Buy balls, and board mountings for wood based flooring. [4.2]
+\begin{flushright}
+Assigned to: \textbf{Matthew Vella} \\
+Deadline: \textbf{Thursday 4th April}
+\end{flushright}
+
+\item Research about using NVRAM instead of SD card for persistent storage. Aidan will be helping with is issue as well. [4.2]
+\begin{flushright}
+	Assigned to: \textbf{Neil Vassallo, Aidan Cauchi} \\
+	Deadline: \textbf{Thursday 4th April}
+\end{flushright}
+
+\item Figure out how to access the board pins through software for interfacing with peripherals. [4.2]
+\begin{flushright}
+	Assigned to: \textbf{Aidan Cauchi} \\
+	Deadline: \textbf{Thursday 4th March}
+\end{flushright}
+
+\item Testing HR0214-100A IR Proximity sensor,and also a micro lever switch. [5.1]
+\begin{flushright}
+Assigned to: \textbf{Peter Galea St. John} \\
+Deadline: \textbf{Thursday 4th April}
+\end{flushright}
+
+\item The structure of the model will start getting built. [5.1]
+\begin{flushright}
+Assigned to: \textbf{Matthew Vella} \\
+Deadline: \textbf{Thursday 4th April}
+\end{flushright}
+
+\end{enumerate}
+
+
+\end{document}

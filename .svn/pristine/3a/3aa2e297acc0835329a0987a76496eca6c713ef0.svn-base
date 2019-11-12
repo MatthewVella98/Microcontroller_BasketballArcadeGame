@@ -1,0 +1,101 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{ Minutes for meeting 3 -- Group 2}
+\author{Location: 8 B 0}
+\date{14th March 2019, 12:30--13:30}
+
+\begin{document}
+
+\maketitle
+
+\section*{Present}
+% Members actually present at the meeting
+Aidan Cauchi(Chair),
+Peter Galea St John ,
+Matthew Vella(Minutes),
+Neil Vassallo.
+
+%\section*{Apologies}
+% Members with a justifiable excuse - remove section if there were none
+%Richard Bradford
+
+%\section*{Absent}
+% Members without a justifiable excuse - remove section if there were none
+%Robert De Niro
+
+\section*{Discussion}
+
+\begin{enumerate}
+
+% There should be an item corresponding to each of the agenda items for this
+% meeting.
+
+\item Minutes from the previous meeting were read and approved.
+
+\item Progress report from group members:
+   \begin{enumerate}
+   \item Matthew: The material was ordered from the carpeneter and the materials will be collected tomorrow. The building of the model will start from this week. 
+	
+   \item Aidan: Not much was done on Doxygen. Thrhough some research, i think that the GPIO pins will be needed since the joystick will not be attached to the board. I still have to learn how to inferface the joystick the GPIO pins. 
+
+   \item Neil: I researched on Doxygen: how to setup, basic functionalities, how to make the Doxygen file etc. I recomend a video about Doxygen.
+
+   \item Peter: I tested out the componenets. 
+
+
+   \end{enumerate}
+
+% Add other items here as necessary
+
+%\item Matters arising
+   %\begin{enumerate}
+ %  \item First item discussed that was not on the agenda
+  % \end{enumerate}
+
+\end{enumerate}
+
+\section*{Actions}
+
+\begin{enumerate}
+
+\item Build physical model. [2.2]
+\begin{flushright}
+Assigned to: \textbf{Matthew Vella} \\
+Deadline: \textbf{Wednesday 29th March}
+\end{flushright}
+
+\item Testing components and interfacing LCD display. [2.2]
+\begin{flushright}
+Assigned to: \textbf{Peter Galea St. John} \\
+Deadline: \textbf{Wednesday 29th March}
+\end{flushright}
+
+\item Saving to SD card. [3.1]
+\begin{flushright}
+Assigned to: \textbf{Aidan Cauchi, Neil Vassallo} \\
+Deadline: \textbf{Wednesday 29th March}
+\end{flushright}
+
+\item Research and interfacing LED lights and analogue joystick. [2.2]
+\begin{flushright}
+Assigned to: \textbf{Aidan Cauchi} \\
+Deadline: \textbf{Wednesday 29th March}
+\end{flushright}
+
+\item Get acquainted with the board. [2.2]
+\begin{flushright}
+Assigned to: \textbf{All members} \\
+Deadline: \textbf{Next meeting (29th March)}
+\end{flushright}
+
+\end{enumerate}
+
+\section*{Matters arising}
+
+\begin{enumerate}
+	
+\item No matters arose. 
+	
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{Meeting Agenda -- Group 2}
+\author{Location: -1 B 2}
+\date{7 March 2019, 12:30--13:30}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Chair:}   & Aidan Cauchi \\
+\textbf{Minutes:} & Peter Galea St. John
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+
+\item Reading and approval of minutes from previous meeting.
+
+\item Progress report from group members.
+
+\item Discussing budget with respect to physical model.
+
+\item Discuss and assign goals/requirements to be done by the next meeting.
+
+\item Start prioritising requirements.
+
+\item Matters arising: None noted.
+
+\end{enumerate}
+
+\end{document}

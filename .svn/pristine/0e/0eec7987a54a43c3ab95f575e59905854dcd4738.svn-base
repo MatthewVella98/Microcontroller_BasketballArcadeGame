@@ -1,0 +1,112 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{ Minutes for meeting 2 -- Group 2}
+\author{Location: 8 B 0}
+\date{7th March 2019, 12:30--13:30}
+
+\begin{document}
+
+\maketitle
+
+\section*{Present}
+% Members actually present at the meeting
+Aidan Cauchi (Chair),
+Peter Galea St John (Minutes),
+Matthew Vella,
+Neil Vassallo.
+
+%\section*{Apologies}
+% Members with a justifiable excuse - remove section if there were none
+%Richard Bradford
+
+%\section*{Absent}
+% Members without a justifiable excuse - remove section if there were none
+%Robert De Niro
+
+\section*{Discussion}
+
+\begin{enumerate}
+
+% There should be an item corresponding to each of the agenda items for this
+% meeting.
+
+\item Minutes from the previous meeting were read and approved.
+
+\item Progress report from group members:
+   \begin{enumerate}
+   \item The cost of physical designed was discussed and found to be around  35 euro:
+	\begin{itemize}
+		\item  20 euro Plywood.
+		\item  15 euro sensors and components.
+	\end{itemize}
+   \item The position of each component were set and assigned accordingly:
+	\begin{itemize}
+		\item Two seven-segment display blocks for displaying countdown timer- top left corner.
+		\item Two seven-segment display blocks for displaying the score- top right corner.
+		\item One analogue joystick to use in menu selection.
+		\item LED's surrounding the hoop.
+		\item Proximity sensor integrated in loop to increment score.
+	\end{itemize}
+
+   \end{enumerate}
+
+% Add other items here as necessary
+
+%\item Matters arising
+   %\begin{enumerate}
+ %  \item First item discussed that was not on the agenda
+  % \end{enumerate}
+
+\end{enumerate}
+
+\section*{Actions}
+
+\begin{enumerate}
+
+\item Build physical model. [2.1]
+\begin{flushright}
+Assigned to: \textbf{Matthew Vella} \\
+Deadline: \textbf{Wednesday 13th March}
+\end{flushright}
+
+\item Testing components and interfacing LCD display. [2.1]
+\begin{flushright}
+Assigned to: \textbf{Peter Galea St. John} \\
+Deadline: \textbf{Wednesday 13th March}
+\end{flushright}
+
+\item Learning and familiarising with Doxygen. [2.1]
+\begin{flushright}
+Assigned to: \textbf{Aidan Cauchi, Neil Vassallo} \\
+Deadline: \textbf{Wednesday 13th March}
+\end{flushright}
+
+\item Research and interfacing LED lights and analogue joystick. [2.1]
+\begin{flushright}
+Assigned to: \textbf{Aidan Cauchi} \\
+Deadline: \textbf{Wednesday 6th March}
+\end{flushright}
+
+\item Going through previous actions and changing them to [x.y] format. [2.1]
+\begin{flushright}
+	Assigned to: \textbf{Aidan Cauchi} \\
+	Deadline: \textbf{Wednesday 6th March}
+\end{flushright}
+
+\item Get acquainted with the board. [2.1]
+\begin{flushright}
+Assigned to: \textbf{All members} \\
+Deadline: \textbf{Next meeting (7th March)}
+\end{flushright}
+
+\end{enumerate}
+
+\section*{Matters arising}
+
+\begin{enumerate}
+	
+\item Going through previous actions and minutes and changing them to proper format.
+	
+\end{enumerate}
+
+\end{document}
